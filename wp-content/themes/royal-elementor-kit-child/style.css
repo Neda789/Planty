@@ -1,0 +1,31 @@
+/*
+Theme Name: Royal Elementor Kit Child
+Theme URI: https://royal-elementor-addons.com/royal-elementor-kit
+Template: royal-elementor-kit
+Author: WP Royal
+Author URI: https://royal-elementor-addons.com/
+Description: Truly all in one Solution For Elementor Lovers. 70+ Elementor Templates KIT, 90+ Professional Elementor Widgets, Elementor theme builder, Elementor Popup Builder, Elementor Premade blocks and many other cool features like Sticky Header, Particle effects, parallax backgrounds and many other elementor addons. Simple Install the theme, click on - Get Started with Templates Kit button and that's it. Very easy to use even for WordPress beginners or professionals. All In one Elementor Solution which outranks all other Elementor themes and Elementor addons. ########### TEMPLATES INCLUDED: Elementor Blog Template, Elementor Magazine Blog Template, Elementor Food Blog Template, Elementor Travel Blog Template, Elementor Portfolio Template, Elementor NFT Template, Elementor Pizza Restaurant Template, Elementor Travel Blogger &amp; Influencer Template, Elementor Cybersecurity Template, Elementor Photographer Portfolio Template, Elementor Crypto Currency Template, Elementor Skin Care Template, Elementor Lawyer Template, Elementor Medical Template, Elementor Digital Agency Template, Elementor Drone Template, Elementro Architecture Template, Elementor Food Delivery Template, Elementor Construction Template, Elementor IT Technology Template, Elementor Real Estate Template, Elementor Restaurant Template, Elementor Wine Bar &amp; Restaurant Template, Elementor Wedding Template &amp; other beautiful elementor business templates. All these templates are created with elementor page builder. Theme Demo Page: https://royal-elementor-addons.com/royal-elementor-kit/
+Tags: blog,e-commerce,one-column,custom-background,custom-colors,full-width-template,custom-menu,custom-logo,featured-images,sticky-post,theme-options,threaded-comments,translation-ready
+Version: 1.0.117.1708376954
+Updated: 2024-02-19 23:09:14
+
+*/
+html {
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
+}
+*,*::before,*::after {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+    margin-bottom: -30px;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #333333;
+	background-color: #fff;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
