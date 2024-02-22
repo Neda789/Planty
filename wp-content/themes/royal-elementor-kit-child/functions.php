@@ -22,18 +22,25 @@ endif;
 add_action( 'wp_enqueue_scripts', 'chld_thm_cfg_parent_css', 10 );
 
 // END ENQUEUE PARENT ACTION
-function add_search_form($items, $args) {
-    if( $args->theme_location == 'menu-1' ){
-    $items .= '<li class="menu-item">'
-            . '<form role="search" method="get" class="search-form" action="'.home_url( '/' ).'">'
-            . '<label>'
-            . '<span class="screen-reader-text">' . _x( 'Search for:', 'label' ) . '</span>'
-            . '<input type="search" class="search-field" placeholder="' . esc_attr_x( 'Search …', 'placeholder' ) . '" value="' . get_search_query() . '" name="s" title="' . esc_attr_x( 'Search for:', 'label' ) . '" />'
-            . '</label>'
-            . '<input type="submit" class="search-submit" value="'. esc_attr_x('Search', 'submit button') .'" />'
-            . '</form>'
-            . '</li>';
+
+// Fonction pour ajouter un lien vers l'admin dans le pied de page
+// Fonction pour ajouter un lien vers l'admin dans le menu de navigation
+
+// Fonction pour ajouter un lien vers l'admin dans le menu de navigation
+
+function add_admin_link( $items, $args ) {
+    // Vérifie si l'utilisateur est connecté
+    if ( is_user_logged_in() ) {
+        // Construit le lien vers l'administration
+        $admin_url = admin_url();
+        $admin_link = '<li><a href="' . esc_url($admin_url) . '">Admin</a></li>';
+
+        // Ajoute le lien à la fin des éléments du menu
+        $items .= $admin_link;
     }
-  return $items;
+
+    return $items;
 }
-add_filter('wp_nav_menu_items', 'add_search_form', 10, 2);
+
+add_filter( 'wp_nav_menu_items', 'add_admin_link', 10, 2 );
+
