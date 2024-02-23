@@ -29,3 +29,8 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
+.elementor a  {
+	color: #000;
+	padding-right: 40px;
+padding-left: 40px;}
+

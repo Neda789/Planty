@@ -28,6 +28,9 @@ add_action( 'wp_enqueue_scripts', 'chld_thm_cfg_parent_css', 10 );
 
 // Fonction pour ajouter un lien vers l'admin dans le menu de navigation
 
+/**
+ * Ajout d'un élément avant le menu
+ */
 function add_admin_link( $items, $args ) {
     // Vérifie si l'utilisateur est connecté
     if ( is_user_logged_in() ) {
@@ -43,4 +46,3 @@ function add_admin_link( $items, $args ) {
 }
 
 add_filter( 'wp_nav_menu_items', 'add_admin_link', 10, 2 );
-
