@@ -1,21 +1,3 @@
-<?php
-namespace WprAddons\Modules\AdvancedAccordion;
-
-use WprAddons\Base\Module_Base;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Module extends Module_Base {
-
-	public function get_name() {
-		return 'wpr-advanced-accordion';
-	}
-
-	public function get_widgets() {
-		return [
-			'Wpr_Advanced_Accordion',
-		];
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4e72e993b136a72d83a476d335d2de813bf0e050f6dc1e04ef271a5a05bb01bb
+size 346

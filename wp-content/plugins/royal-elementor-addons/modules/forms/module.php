@@ -1,24 +1,3 @@
-<?php
-namespace WprAddons\Modules\Forms;
-
-use WprAddons\Base\Module_Base;
-
-class Module extends Module_Base {
-
-	public function __construct() {
-		parent::__construct();
-
-		// This is here for extensibility purposes - go to town and make things happen!
-	}
-	
-	public function get_name() {
-		return 'wpr-forms';
-	}
-
-	public function get_widgets() {
-		return [
-			'Wpr_Forms', // This should match the widget/element class.
-		];
-	}
-	
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1fb7fbd3b8f8b57296c125e5fbd062c2b654554f47094d4e9d7ec3eaa1311c79
+size 431

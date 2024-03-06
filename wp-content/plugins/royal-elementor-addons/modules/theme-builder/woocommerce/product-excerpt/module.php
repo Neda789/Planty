@@ -1,24 +1,3 @@
-<?php
-namespace WprAddons\Modules\ThemeBuilder\Woocommerce\ProductExcerpt;
-
-use WprAddons\Base\Module_Base;
-
-class Module extends Module_Base {
-
-	public function __construct() {
-		parent::__construct();
-
-		// This is here for extensibility purposes - go to town and make things happen!
-	}
-	
-	public function get_name() {
-		return 'wpr-product-excerpt';
-	}
-
-	public function get_widgets() {
-		return [
-			'Wpr_Product_Excerpt', // This should match the widget/element class.
-		];
-	}
-	
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0733c192add59a9e4120585068a718e39ab71aa704f338b9a8776646f536f591
+size 485

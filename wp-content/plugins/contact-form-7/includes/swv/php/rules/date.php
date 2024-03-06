@@ -1,35 +1,3 @@
-<?php
-
-namespace Contactable\SWV;
-
-class DateRule extends Rule {
-
-	const rule_name = 'date';
-
-	public function matches( $context ) {
-		if ( false === parent::matches( $context ) ) {
-			return false;
-		}
-
-		if ( empty( $context['text'] ) ) {
-			return false;
-		}
-
-		return true;
-	}
-
-	public function validate( $context ) {
-		$input = $this->get_default_input();
-		$input = wpcf7_array_flatten( $input );
-		$input = wpcf7_exclude_blank( $input );
-
-		foreach ( $input as $i ) {
-			if ( ! wpcf7_is_date( $i ) ) {
-				return $this->create_error();
-			}
-		}
-
-		return true;
-	}
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:35fa87e9cc2abdb8e5cd3be13ffb9c16c2895e03160bbc0794ed40db5a721965
+size 574

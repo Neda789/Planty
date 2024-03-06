@@ -1,8 +1,3 @@
-<?php 
-if ( !defined( 'ABSPATH' ) ) exit;
-// Backup Input Cell
-?>
-<label class="ctc-input-cell smaller<?php echo 'child' == $template && !$this->ctc()->fs && is_writable( $themeroot . $backup ) ? ' writable' : ''; ?>">
-      <input class="ctc_checkbox" id="ctc_file_<?php echo $template . '_' . ++$counter; ?>" 
-                    name="ctc_file_<?php echo $template; ?>[]" type="checkbox" 
-                    value="<?php echo $templatefile; ?>" /><?php echo __( 'Backup', 'child-theme-configurator' ) . ' ' . $label; ?></label>
+version https://git-lfs.github.com/spec/v1
+oid sha256:fd205833981aaaf02bdbde45a30b285579f99a06a24a1dcd7550bda8b7fe90e8
+size 531

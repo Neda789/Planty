@@ -1,8 +1,3 @@
-<?php
-// Exit if accessed directly
-if ( !defined( 'ABSPATH' ) ) exit;
-        if ( $childname = $this->css()->get_prop( 'child_name' ) ): ?>
-<div class="ctc-input-cell">
-  <h3><?php echo __( 'Currently loaded', 'child-theme-configurator' ). ': ' . $childname; ?></h3>
-</div>
-<?php   endif;
+version https://git-lfs.github.com/spec/v1
+oid sha256:89e35becaf26262a14bfff81a7a72b2964683b71a460dcbcd2f3fef04a27190a
+size 290

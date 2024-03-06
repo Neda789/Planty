@@ -1,21 +1,3 @@
-<?php
-namespace WprAddons\Modules\ContentToggle;
-
-use WprAddons\Base\Module_Base;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Module extends Module_Base {
-
-	public function get_widgets() {
-		return [
-			'Wpr_Content_Toggle',
-		];
-	}
-
-	public function get_name() {
-		return 'wpr-content-toggle';
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b558efb7bd1f2ac46767b44159b45a43e7d011640a75e4a50b0587ded39dbb36
+size 334

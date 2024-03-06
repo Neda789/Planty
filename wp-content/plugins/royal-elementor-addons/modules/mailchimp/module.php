@@ -1,24 +1,3 @@
-<?php
-namespace WprAddons\Modules\Mailchimp;
-
-use WprAddons\Base\Module_Base;
-
-class Module extends Module_Base {
-
-	public function __construct() {
-		parent::__construct();
-
-		// This is here for extensibility purposes - go to town and make things happen!
-	}
-	
-	public function get_name() {
-		return 'wpr-mailchimp';
-	}
-
-	public function get_widgets() {
-		return [
-			'Wpr_Mailchimp', // This should match the widget/element class.
-		];
-	}
-	
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e6ecb0291ffdf5003979fca09c7625033b76188cd36bcec4d1b12608c10f9556
+size 443

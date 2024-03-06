@@ -1,24 +1,3 @@
-<?php
-namespace WprAddons\Modules\InstagramFeed;
-
-use WprAddons\Base\Module_Base;
-
-class Module extends Module_Base {
-
-	public function __construct() {
-		parent::__construct();
-
-		// This is here for extensibility purposes - go to town and make things happen!
-	}
-	
-	public function get_name() {
-		return 'wpr-instagram-feed';
-	}
-
-	public function get_widgets() {
-		return [
-			'Wpr_Instagram_Feed', // This should match the widget/element class.
-		];
-	}
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6e7be5111627f401cbe2a466deec37f019212f11d57cf986c0e1bb1142a61510
+size 456

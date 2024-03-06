@@ -1,27 +1,3 @@
-<?php
-/**
- * Template canvas file to render the current 'wp_template'.
- *
- * @package WordPress
- */
-
-/*
- * Get the template HTML.
- * This needs to run before <head> so that blocks can add scripts and styles in wp_head().
- */
-$template_html = get_the_block_template_html();
-?><!DOCTYPE html>
-<html <?php language_attributes(); ?>>
-<head>
-	<meta charset="<?php bloginfo( 'charset' ); ?>" />
-	<?php wp_head(); ?>
-</head>
-
-<body <?php body_class(); ?>>
-<?php wp_body_open(); ?>
-
-<?php echo $template_html; ?>
-
-<?php wp_footer(); ?>
-</body>
-</html>
+version https://git-lfs.github.com/spec/v1
+oid sha256:a1a8a7ed542c25d96c78d51438d84b3a7e053ded953f3452ae38f6b84f71038a
+size 544

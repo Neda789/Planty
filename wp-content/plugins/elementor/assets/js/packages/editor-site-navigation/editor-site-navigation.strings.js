@@ -1,23 +1,3 @@
-__( 'Pages', 'elementor' );
-__( 'Page', 'elementor' );
-__( 'Pages', 'elementor' );
-__( 'Recent', 'elementor' );
-__( 'There are no other pages or templates on this site yet.', 'elementor' );
-__( 'Add new page', 'elementor' );
-__( 'Pages', 'elementor' );
-__( 'Add New', 'elementor' );
-__( 'Homepage', 'elementor' );
-__( 'copy', 'elementor' );
-__( 'New Page', 'elementor' );
-__( 'Name is required', 'elementor' );
-// translators: %s: Post type (e.g. Page, Post, etc.)
-__( 'View %s', 'elementor' );
-__( 'Set as homepage', 'elementor' );
-__( 'Rename', 'elementor' );
-__( 'Duplicate', 'elementor' );
-__( 'Delete', 'elementor' );
-/* translators: %s: Post title. */
-__( 'Delete "%s"?', 'elementor' );
-__( 'The page and its content will be deleted forever and we won’t be able to recover them.', 'elementor' );
-__( 'Cancel', 'elementor' );
-__( 'Delete', 'elementor' );
+version https://git-lfs.github.com/spec/v1
+oid sha256:c789eab22a0aca34d1c7083c816f726e731c3571c73a783a65d496f24c67d219
+size 861

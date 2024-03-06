@@ -1,24 +1,3 @@
-<?php
-namespace WprAddons\Modules\ImageAccordion;
-
-use WprAddons\Base\Module_Base;
-
-class Module extends Module_Base {
-
-	public function __construct() {
-		parent::__construct();
-
-		// This is here for extensibility purposes - go to town and make things happen!
-	}
-	
-	public function get_name() {
-		return 'wpr-image-accordion';
-	}
-
-	public function get_widgets() {
-		return [
-			'Wpr_Image_Accordion', // This should match the widget/element class.
-		];
-	}
-	
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c03604d889b894908ac1d178bbea28badf71f21dc538a963a075c16555b98873
+size 460

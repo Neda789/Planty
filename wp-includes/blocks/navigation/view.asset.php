@@ -1,1 +1,3 @@
-<?php return array('dependencies' => array(), 'version' => 'b3eba25769c9fe5ec0fa');
+version https://git-lfs.github.com/spec/v1
+oid sha256:fb7a07897b69ac04d11a3bf63396379843aaddaf3e109e77f08e1910055d6b29
+size 84

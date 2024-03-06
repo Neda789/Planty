@@ -1,21 +1,3 @@
-<?php
-namespace WprAddons\Modules\Button;
-
-use WprAddons\Base\Module_Base;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Module extends Module_Base {
-
-	public function get_widgets() {
-		return [
-			'Wpr_Button',
-		];
-	}
-
-	public function get_name() {
-		return 'wpr-button';
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3e525b3b2fb202e80f524af86a987d54fb122cbe054540ca490b3645687214b4
+size 311

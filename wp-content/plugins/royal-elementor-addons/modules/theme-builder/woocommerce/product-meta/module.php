@@ -1,24 +1,3 @@
-<?php
-namespace WprAddons\Modules\ThemeBuilder\Woocommerce\ProductMeta;
-
-use WprAddons\Base\Module_Base;
-
-class Module extends Module_Base {
-
-	public function __construct() {
-		parent::__construct();
-
-		// This is here for extensibility purposes - go to town and make things happen!
-	}
-	
-	public function get_name() {
-		return 'wpr-product-meta';
-	}
-
-	public function get_widgets() {
-		return [
-			'Wpr_Product_Meta', // This should match the widget/element class.
-		];
-	}
-	
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6efd8e0d89d1004ef787c81bc6a2d14d1c7338e2657806f57e54f0cadb4fda9f
+size 476

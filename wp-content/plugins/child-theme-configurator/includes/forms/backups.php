@@ -1,12 +1,3 @@
-<?php
-if ( !defined( 'ABSPATH' ) ) exit;
-// Additional stylesheets
-?><br/>
-<?php
-    foreach ( $this->get_files( $this->css()->get_prop( 'child' ), 'backup' ) as $backup => $label ): ?>
-          <label>
-            <input class="ctc_checkbox" id="ctc_revert_<?php echo $backup; ?>" name="ctc_revert" type="radio" 
-                value="<?php echo $backup; ?>" />
-            <?php echo __( 'Restore backup from', 'child-theme-configurator' ) . ' ' . $label; ?></label>
-          <br/>
-          <?php endforeach;
+version https://git-lfs.github.com/spec/v1
+oid sha256:20e576b2b5352112b25d8debfaa5bdfedea91b5fb02ed209e28c718b501fd718
+size 514

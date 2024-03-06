@@ -1,21 +1,3 @@
-<?php
-namespace WprAddons\Modules\ElementorTemplate;
-
-use WprAddons\Base\Module_Base;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Module extends Module_Base {
-
-	public function get_widgets() {
-		return [
-			'Wpr_Elementor_Template',
-		];
-	}
-
-	public function get_name() {
-		return 'wpr-elementor-template';
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:54fe555cce73e79454b707c1e9c654f9e3800bc4021791ef586a8a85266958d3
+size 346

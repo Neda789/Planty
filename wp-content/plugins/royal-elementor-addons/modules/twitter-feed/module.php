@@ -1,24 +1,3 @@
-<?php
-namespace WprAddons\Modules\TwitterFeed;
-
-use WprAddons\Base\Module_Base;
-
-class Module extends Module_Base {
-
-	public function __construct() {
-		parent::__construct();
-
-		// This is here for extensibility purposes - go to town and make things happen!
-	}
-	
-	public function get_name() {
-		return 'wpr-twitter-feed';
-	}
-
-	public function get_widgets() {
-		return [
-			'Wpr_Twitter_Feed', // This should match the widget/element class.
-		];
-	}
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:046fe03e38dc91e2d7619290f6b7c9e8920cabb67e68b8b72f4a795f767dcb9a
+size 450

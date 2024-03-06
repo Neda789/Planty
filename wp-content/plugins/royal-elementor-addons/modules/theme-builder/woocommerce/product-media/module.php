@@ -1,24 +1,3 @@
-<?php
-namespace WprAddons\Modules\ThemeBuilder\Woocommerce\ProductMedia;
-
-use WprAddons\Base\Module_Base;
-
-class Module extends Module_Base {
-
-	public function __construct() {
-		parent::__construct();
-
-		// This is here for extensibility purposes - go to town and make things happen!
-	}
-	
-	public function get_name() {
-		return 'wpr-product-media';
-	}
-
-	public function get_widgets() {
-		return [
-			'Wpr_Product_Media', // This should match the widget/element class.
-		];
-	}
-	
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6103cda8ae0305d17f8b411256cc6c52bb087ae8f69867b4c13188ca76d898f8
+size 479

@@ -1,25 +1,3 @@
-<?php
-namespace WprAddons\Modules\ThemeBuilder\AuthorBox;
-
-use WprAddons\Base\Module_Base;
-use wpraddons\Classes\Utilities;
-
-class Module extends Module_Base {
-
-	public function __construct() {
-		parent::__construct();
-
-		// This is here for extensibility purposes - go to town and make things happen!
-	}
-	
-	public function get_name() {
-		return 'wpr-author-box';
-	}
-
-	public function get_widgets() {
-		return [
-			'Wpr_Author_Box', // This should match the widget/element class.
-		];
-	}
-	
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c86069b469d03445fd4d57e034c352791e94c8b561aa17d925a5691b17863469
+size 491

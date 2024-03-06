@@ -1,17 +1,3 @@
-window.__elementorEditorV1LoadingPromise = new Promise( ( resolve ) => {
-	window.addEventListener( 'elementor/init', () => {
-		resolve();
-	}, { once: true } );
-} );
-
-window.elementor.start();
-
-if ( ! window.elementorV2?.editor ) {
-	throw new Error( 'The "@elementor/editor" package was not loaded.' );
-}
-
-window.elementorV2
-	.editor
-	.init(
-		document.getElementById( 'elementor-editor-wrapper-v2' ),
-	);
+version https://git-lfs.github.com/spec/v1
+oid sha256:112affb2e80f9f7b232190128999fe21e154adf168fd9ba13ab488aad0769372
+size 405

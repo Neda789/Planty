@@ -1,24 +1,3 @@
-<?php
-namespace WprAddons\Modules\ThemeBuilder\Woocommerce\ProductRating;
-
-use WprAddons\Base\Module_Base;
-
-class Module extends Module_Base {
-
-	public function __construct() {
-		parent::__construct();
-
-		// This is here for extensibility purposes - go to town and make things happen!
-	}
-	
-	public function get_name() {
-		return 'wpr-product-rating';
-	}
-
-	public function get_widgets() {
-		return [
-			'Wpr_Product_Rating', // This should match the widget/element class.
-		];
-	}
-	
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:582390ed63db8fb3fbe6b90d2b3b686a5e880559b6ae7eac6400ae8949f8f30c
+size 482

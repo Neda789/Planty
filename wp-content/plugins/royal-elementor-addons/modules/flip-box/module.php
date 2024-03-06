@@ -1,21 +1,3 @@
-<?php
-namespace WprAddons\Modules\FlipBox;
-
-use WprAddons\Base\Module_Base;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Module extends Module_Base {
-
-	public function get_widgets() {
-		return [
-			'Wpr_Flip_Box',
-		];
-	}
-
-	public function get_name() {
-		return 'wpr-flip-box';
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9571885423edfa8e3133feac7e8767b21875f631f037e625574f317bf602dab2
+size 316

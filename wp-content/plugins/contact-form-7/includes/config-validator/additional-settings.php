@@ -1,28 +1,3 @@
-<?php
-
-trait WPCF7_ConfigValidator_AdditionalSettings {
-
-	/**
-	 * Runs error detection for the additional settings section.
-	 */
-	public function validate_additional_settings() {
-		$section = 'additional_settings.body';
-
-		if ( $this->supports( 'deprecated_settings' ) ) {
-			$deprecated_settings_used =
-				$this->contact_form->additional_setting( 'on_sent_ok' ) ||
-				$this->contact_form->additional_setting( 'on_submit' );
-
-			if ( $deprecated_settings_used ) {
-				$this->add_error( $section, 'deprecated_settings',
-					array(
-						'message' => __( "Deprecated settings are used.", 'contact-form-7' ),
-					)
-				);
-			} else {
-				$this->remove_error( $section, 'deprecated_settings' );
-			}
-		}
-	}
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8ad79ffddbce65bd17cab4406a5fcad3d49037dc47632b9fa819049c34db164a
+size 710

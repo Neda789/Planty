@@ -1,24 +1,3 @@
-<?php
-namespace WprAddons\Modules\ThemeBuilder\Woocommerce\ProductNotice;
-
-use WprAddons\Base\Module_Base;
-
-class Module extends Module_Base {
-
-	public function __construct() {
-		parent::__construct();
-
-		// This is here for extensibility purposes - go to town and make things happen!
-	}
-	
-	public function get_name() {
-		return 'wpr-product-notice';
-	}
-
-	public function get_widgets() {
-		return [
-			'Wpr_Product_Notice', // This should match the widget/element class.
-		];
-	}
-	
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:571606a58a5809b8a182f9e5eceea5f3771cd26e44bff7f3a9a3a4c1067831bd
+size 482

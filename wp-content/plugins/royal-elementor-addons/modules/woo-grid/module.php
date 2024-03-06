@@ -1,24 +1,3 @@
-<?php
-namespace WprAddons\Modules\WooGrid;
-
-use WprAddons\Base\Module_Base;
-
-class Module extends Module_Base {
-
-	public function __construct() {
-		parent::__construct();
-
-		// This is here for extensibility purposes - go to town and make things happen!
-	}
-	
-	public function get_name() {
-		return 'wpr-woo-grid';
-	}
-
-	public function get_widgets() {
-		return [
-			'Wpr_Woo_Grid', // This should match the widget/element class.
-		];
-	}
-	
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0d9739e2f645ce93aeb7335bcca1981acbf22cf65e883c0a155bc8a55ecbbf1a
+size 439

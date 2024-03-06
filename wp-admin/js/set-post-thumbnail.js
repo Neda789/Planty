@@ -1,28 +1,3 @@
-/**
- * @output wp-admin/js/set-post-thumbnail.js
- */
-
-/* global ajaxurl, post_id, alert */
-/* exported WPSetAsThumbnail */
-
-window.WPSetAsThumbnail = function( id, nonce ) {
-	var $link = jQuery('a#wp-post-thumbnail-' + id);
-
-	$link.text( wp.i18n.__( 'Saving…' ) );
-	jQuery.post(ajaxurl, {
-		action: 'set-post-thumbnail', post_id: post_id, thumbnail_id: id, _ajax_nonce: nonce, cookie: encodeURIComponent( document.cookie )
-	}, function(str){
-		var win = window.dialogArguments || opener || parent || top;
-		$link.text( wp.i18n.__( 'Use as featured image' ) );
-		if ( str == '0' ) {
-			alert( wp.i18n.__( 'Could not set that as the thumbnail image. Try a different attachment.' ) );
-		} else {
-			jQuery('a.wp-post-thumbnail').show();
-			$link.text( wp.i18n.__( 'Done' ) );
-			$link.fadeOut( 2000 );
-			win.WPSetThumbnailID(id);
-			win.WPSetThumbnailHTML(str);
-		}
-	}
-	);
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:45ed6c0473f932521499fa2f8481ad2664820d4d8683729b47d571846751f480
+size 876

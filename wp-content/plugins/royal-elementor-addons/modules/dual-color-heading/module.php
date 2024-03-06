@@ -1,24 +1,3 @@
-<?php
-namespace WprAddons\Modules\DualColorHeading;
-
-use WprAddons\Base\Module_Base;
-
-class Module extends Module_Base {
-
-	public function __construct() {
-		parent::__construct();
-
-		// This is here for extensibility purposes - go to town and make things happen!
-	}
-	
-	public function get_name() {
-		return 'wpr-dual-color-heading';
-	}
-
-	public function get_widgets() {
-		return [
-			'Wpr_Dual_Color_Heading', // This should match the widget/element class.
-		];
-	}
-	
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e5a7a8a5677a52ab04291f0c2fe203631ef7f512aab11534695e0e6b62bb6a0e
+size 468

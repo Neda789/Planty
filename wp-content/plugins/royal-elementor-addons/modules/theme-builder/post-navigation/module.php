@@ -1,25 +1,3 @@
-<?php
-namespace WprAddons\Modules\ThemeBuilder\PostNavigation;
-
-use WprAddons\Base\Module_Base;
-use WprAddons\Classes\Utilities;
-
-class Module extends Module_Base {
-
-	public function __construct() {
-		parent::__construct();
-
-		// This is here for extensibility purposes - go to town and make things happen!
-	}
-	
-	public function get_name() {
-		return 'wpr-post-navigation';
-	}
-
-	public function get_widgets() {
-		return [
-			'Wpr_Post_Navigation', // This should match the widget/element class.
-		];
-	}
-	
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7f6c98a4f9e471bd216f46672a99d8de47080528c0886686b25ee479648d91db
+size 506

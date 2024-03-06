@@ -1,35 +1,3 @@
-<?php
-
-namespace Contactable\SWV;
-
-class URLRule extends Rule {
-
-	const rule_name = 'url';
-
-	public function matches( $context ) {
-		if ( false === parent::matches( $context ) ) {
-			return false;
-		}
-
-		if ( empty( $context['text'] ) ) {
-			return false;
-		}
-
-		return true;
-	}
-
-	public function validate( $context ) {
-		$input = $this->get_default_input();
-		$input = wpcf7_array_flatten( $input );
-		$input = wpcf7_exclude_blank( $input );
-
-		foreach ( $input as $i ) {
-			if ( ! wpcf7_is_url( $i ) ) {
-				return $this->create_error();
-			}
-		}
-
-		return true;
-	}
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e32e714ffa7c19f4d8774db37a7acf7e9ccfa21a5a34badfd9f937e872c1cc4c
+size 571

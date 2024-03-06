@@ -1,24 +1,3 @@
-<?php
-namespace WprAddons\Modules\PopupTrigger;
-
-use WprAddons\Base\Module_Base;
-
-class Module extends Module_Base {
-
-	public function __construct() {
-		parent::__construct();
-
-		// This is here for extensibility purposes - go to town and make things happen!
-	}
-	
-	public function get_name() {
-		return 'wpr-popup-trigger';
-	}
-
-	public function get_widgets() {
-		return [
-			'Wpr_Popup_Trigger', // This should match the widget/element class.
-		];
-	}
-	
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:cba8a29ba21a67ace7d7f39ef1531353c07330d012791bd8ccd6c86390b1f7ba
+size 454

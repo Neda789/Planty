@@ -1,34 +1,3 @@
-
-// Node.prototype.contains
-(function() {
-
-	function contains(node) {
-		if (!(0 in arguments)) {
-			throw new TypeError('1 argument is required');
-		}
-
-		do {
-			if (this === node) {
-				return true;
-			}
-		// eslint-disable-next-line no-cond-assign
-		} while (node = node && node.parentNode);
-
-		return false;
-	}
-
-	// IE
-	if ('HTMLElement' in self && 'contains' in HTMLElement.prototype) {
-		try {
-			delete HTMLElement.prototype.contains;
-		// eslint-disable-next-line no-empty
-		} catch (e) {}
-	}
-
-	if ('Node' in self) {
-		Node.prototype.contains = contains;
-	} else {
-		document.contains = Element.prototype.contains = contains;
-	}
-
-}());
+version https://git-lfs.github.com/spec/v1
+oid sha256:b8abf30b51c569f9a95db8b9f449698543c9ef22d6fcfda25f507587a35d12ee
+size 643

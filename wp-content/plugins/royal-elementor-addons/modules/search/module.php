@@ -1,21 +1,3 @@
-<?php
-namespace WprAddons\Modules\Search;
-
-use WprAddons\Base\Module_Base;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Module extends Module_Base {
-
-	public function get_widgets() {
-		return [
-			'Wpr_Search',
-		];
-	}
-
-	public function get_name() {
-		return 'wpr-search';
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2fc6520f07a5b448ebe672e93127d2762e9afa4d145c6738719ac7211fc7ef0f
+size 311

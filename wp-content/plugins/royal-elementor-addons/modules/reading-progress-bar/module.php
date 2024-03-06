@@ -1,21 +1,3 @@
-<?php
-namespace WprAddons\Modules\ReadingProgressBar;
-
-use WprAddons\Base\Module_Base;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Module extends Module_Base {
-
-	public function get_widgets() {
-		return [
-			'Wpr_Reading_Progress_Bar',
-		];
-	}
-
-	public function get_name() {
-		return 'wpr-reading-progress-bar';
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:07c565d3fb083497e97c738fb5864d4f496f8db5b5ad2ebab4951f6e34b5c307
+size 351

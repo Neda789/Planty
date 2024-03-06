@@ -1,9 +1,3 @@
-<?php
-// Exit if accessed directly
-if ( !defined( 'ABSPATH' ) ) exit;
-if ( !defined( 'CHLD_THM_CFG_PRO_VERSION' ) ):
-?><a id="get_pro" href="?page=<?php echo CHLD_THM_CFG_MENU; ?>&amp;tab=get_pro" 
-                    class="nav-tab<?php echo 'get_pro' == $active_tab ? ' nav-tab-active' : ''; ?>">
-<?php _e( 'Upgrade', 'child-theme-configurator' ); ?>
-</a><?php
-endif;
+version https://git-lfs.github.com/spec/v1
+oid sha256:9debe74fc2443c218c84b010ba4554e16db14aaaa742041e4fbc60f8ecd8a237
+size 369

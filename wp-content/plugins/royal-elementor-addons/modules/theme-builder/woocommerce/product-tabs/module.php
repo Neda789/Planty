@@ -1,24 +1,3 @@
-<?php
-namespace WprAddons\Modules\ThemeBuilder\Woocommerce\ProductTabs;
-
-use WprAddons\Base\Module_Base;
-
-class Module extends Module_Base {
-
-	public function __construct() {
-		parent::__construct();
-
-		// This is here for extensibility purposes - go to town and make things happen!
-	}
-	
-	public function get_name() {
-		return 'wpr-product-tabs';
-	}
-
-	public function get_widgets() {
-		return [
-			'Wpr_Product_Tabs', // This should match the widget/element class.
-		];
-	}
-	
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a8b68c507c5439bd630d7a6e7d25b835b6192255aa0d36f1931b45e521fc8ea6
+size 476

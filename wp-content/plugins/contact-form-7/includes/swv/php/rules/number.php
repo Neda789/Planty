@@ -1,35 +1,3 @@
-<?php
-
-namespace Contactable\SWV;
-
-class NumberRule extends Rule {
-
-	const rule_name = 'number';
-
-	public function matches( $context ) {
-		if ( false === parent::matches( $context ) ) {
-			return false;
-		}
-
-		if ( empty( $context['text'] ) ) {
-			return false;
-		}
-
-		return true;
-	}
-
-	public function validate( $context ) {
-		$input = $this->get_default_input();
-		$input = wpcf7_array_flatten( $input );
-		$input = wpcf7_exclude_blank( $input );
-
-		foreach ( $input as $i ) {
-			if ( ! wpcf7_is_number( $i ) ) {
-				return $this->create_error();
-			}
-		}
-
-		return true;
-	}
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:63950f880c60e65dcb532e60d043a0d041b110e6f58689e49d7631a28f38534f
+size 580

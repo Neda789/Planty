@@ -1,21 +1,3 @@
-<?php
-namespace WprAddons\Modules\BackToTop;
-
-use WprAddons\Base\Module_Base;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Module extends Module_Base {
-
-	public function get_widgets() {
-		return [
-			'Wpr_Back_To_Top',
-		];
-	}
-
-	public function get_name() {
-		return 'wpr-back-to-top';
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9e5f0768b890f11f4c23c624776b4aac6eddc2a8bafa10527842da9791eac85e
+size 324

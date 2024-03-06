@@ -1,12 +1,3 @@
-<?php
-    if ( ! defined( 'ABSPATH' ) ) {
-        exit;
-    }
-
-	if ( ! class_exists( 'Freemius_Exception' ) ) {
-		exit;
-	}
-
-	if ( ! class_exists( 'Freemius_InvalidArgumentException' ) ) {
-		class Freemius_InvalidArgumentException extends Freemius_Exception { }
-	}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c549ee11a2ec9447128069d658ef292c9b80886e19f0e8ef631029c7e6e0b887
+size 264

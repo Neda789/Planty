@@ -1,21 +1,3 @@
-<?php
-namespace WprAddons\Modules\Logo;
-
-use WprAddons\Base\Module_Base;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Module extends Module_Base {
-
-	public function get_widgets() {
-		return [
-			'Wpr_Logo',
-		];
-	}
-
-	public function get_name() {
-		return 'wpr-logo';
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:19438424e7b9624887b2894e8596f84d94ffa8c9aac35507a870d87323684722
+size 305

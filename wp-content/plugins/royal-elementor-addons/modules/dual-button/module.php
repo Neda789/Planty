@@ -1,21 +1,3 @@
-<?php
-namespace WprAddons\Modules\DualButton;
-
-use WprAddons\Base\Module_Base;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Module extends Module_Base {
-
-	public function get_widgets() {
-		return [
-			'Wpr_Dual_Button',
-		];
-	}
-
-	public function get_name() {
-		return 'wpr-dual-button';
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2c09ad0adf59015e8990e5f0de5018114e79b5f2923cd817f54035c97521588c
+size 325

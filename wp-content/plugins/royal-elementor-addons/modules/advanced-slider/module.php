@@ -1,21 +1,3 @@
-<?php
-namespace WprAddons\Modules\AdvancedSlider;
-
-use WprAddons\Base\Module_Base;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Module extends Module_Base {
-
-	public function get_name() {
-		return 'wpr-advanced-slider';
-	}
-
-	public function get_widgets() {
-		return [
-			'Wpr_Advanced_Slider',
-		];
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:98530decfda546ad5a26f01a17e4712fa530031120b88080e130000a7637bf5b
+size 337

@@ -1,8 +1,3 @@
-<?php
-require WPR_ADDONS_PATH . 'classes/modules/forms/wpr-recaptcha-handler.php';
-require WPR_ADDONS_PATH . 'classes/modules/forms/wpr-actions-status.php';
-require WPR_ADDONS_PATH . 'classes/modules/forms/wpr-send-email.php';
-require WPR_ADDONS_PATH . 'classes/modules/forms/wpr-send-webhook.php';
-require WPR_ADDONS_PATH . 'classes/modules/forms/wpr-file-upload.php';
-require WPR_ADDONS_PATH . 'classes/modules/forms/wpr-submissions-cpt.php';
-require WPR_ADDONS_PATH . 'classes/modules/forms/wpr-subscribe-mailchimp.php';
+version https://git-lfs.github.com/spec/v1
+oid sha256:4f4828a75e2dc9c457db04bc5c246cb79d0fada1b8b7fa56e836d87f19422c2c
+size 523

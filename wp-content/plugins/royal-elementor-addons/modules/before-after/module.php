@@ -1,24 +1,3 @@
-<?php
-namespace WprAddons\Modules\BeforeAfter;
-
-use WprAddons\Base\Module_Base;
-
-class Module extends Module_Base {
-
-	public function __construct() {
-		parent::__construct();
-
-		// This is here for extensibility purposes - go to town and make things happen!
-	}
-	
-	public function get_name() {
-		return 'wpr-before-after';
-	}
-
-	public function get_widgets() {
-		return [
-			'Wpr_Before_After', // This should match the widget/element class.
-		];
-	}
-	
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8d60eab16de5582bc096d85452f36bd8fbd5c6fdadf526fd776e8e2c890ac8fb
+size 451

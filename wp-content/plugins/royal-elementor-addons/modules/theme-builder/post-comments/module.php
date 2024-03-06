@@ -1,25 +1,3 @@
-<?php
-namespace WprAddons\Modules\ThemeBuilder\PostComments;
-
-use WprAddons\Base\Module_Base;
-use WprAddons\Classes\Utilities;
-
-class Module extends Module_Base {
-
-	public function __construct() {
-		parent::__construct();
-
-		// This is here for extensibility purposes - go to town and make things happen!
-	}
-	
-	public function get_name() {
-		return 'wpr-post-comments';
-	}
-
-	public function get_widgets() {
-		return [
-			'Wpr_Post_Comments', // This should match the widget/element class.
-		];
-	}
-	
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b0486369c0a6a013e2f52188259fa7a82ab9308d4507dafe28d52bc4bf970ae6
+size 500

@@ -1,24 +1,3 @@
-<?php
-namespace WprAddons\Modules\ThemeBuilder\Woocommerce\PageCheckout;
-
-use WprAddons\Base\Module_Base;
-
-class Module extends Module_Base {
-
-	public function __construct() {
-		parent::__construct();
-
-		// This is here for extensibility purposes - go to town and make things happen!
-	}
-	
-	public function get_name() {
-		return 'wpr-page-checkout';
-	}
-
-	public function get_widgets() {
-		return [
-			'Wpr_Page_Checkout', // This should match the widget/element class.
-		];
-	}
-	
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a1cdbf3385b146f4e8263f9aed891ba3a463de4fb57e6d0c4455c64a89637692
+size 479

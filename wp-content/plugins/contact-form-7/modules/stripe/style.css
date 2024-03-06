@@ -1,18 +1,3 @@
-.wpcf7 .wpcf7-stripe .wpcf7-form-control-wrap {
-	margin: .6em 0;
-}
-
-.wpcf7 .wpcf7-stripe .wpcf7-form-control {
-	display: block;
-	background: #f6f7f7;
-	padding: 12px 12px;
-	border: 1px solid #787c82;
-}
-
-.wpcf7 .wpcf7-stripe button:disabled {
-	cursor: not-allowed;
-}
-
-.wpcf7 .wpcf7-stripe .hidden {
-	display: none;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1ccf8a6948b934a9471ee339e3548bb95def8d16d56f4f7f9d430ddd5062c54e
+size 315

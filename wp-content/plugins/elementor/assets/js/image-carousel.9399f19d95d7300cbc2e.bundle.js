@@ -1,29 +1,3 @@
-/*! elementor - v3.19.0 - 28-02-2024 */
-"use strict";
-(self["webpackChunkelementor"] = self["webpackChunkelementor"] || []).push([["image-carousel"],{
-
-/***/ "../assets/dev/js/frontend/handlers/image-carousel.js":
-/*!************************************************************!*\
-  !*** ../assets/dev/js/frontend/handlers/image-carousel.js ***!
-  \************************************************************/
-/***/ ((__unused_webpack_module, exports) => {
-
-
-
-Object.defineProperty(exports, "__esModule", ({
-  value: true
-}));
-exports["default"] = void 0;
-class ImageCarousel extends elementorModules.frontend.handlers.CarouselBase {
-  getDefaultSettings() {
-    const settings = super.getDefaultSettings();
-    settings.selectors.carousel = '.elementor-image-carousel-wrapper';
-    return settings;
-  }
-}
-exports["default"] = ImageCarousel;
-
-/***/ })
-
-}]);
-//# sourceMappingURL=image-carousel.9399f19d95d7300cbc2e.bundle.js.map
+version https://git-lfs.github.com/spec/v1
+oid sha256:03507db5c1892a5946fd4cc42fb4b3a98e8f2c096520ff8c5c5da94618b8f25f
+size 929

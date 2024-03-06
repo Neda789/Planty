@@ -1,25 +1,3 @@
-<?php
-namespace WprAddons\Modules\ThemeBuilder\PostInfo;
-
-use WprAddons\Base\Module_Base;
-use WprAddons\Classes\Utilities;
-
-class Module extends Module_Base {
-
-	public function __construct() {
-		parent::__construct();
-
-		// This is here for extensibility purposes - go to town and make things happen!
-	}
-	
-	public function get_name() {
-		return 'wpr-post-info';
-	}
-
-	public function get_widgets() {
-		return [
-			'Wpr_Post_Info', // This should match the widget/element class.
-		];
-	}
-	
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:370cc16a841292a288166bd578c1fd75e525be47942db64be6d823b7fc30a596
+size 488

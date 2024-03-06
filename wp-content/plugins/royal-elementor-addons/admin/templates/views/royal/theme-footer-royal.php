@@ -1,24 +1,3 @@
-<?php
-use WprAddons\Admin\Includes\WPR_Conditions_Manager;
-use WprAddons\Classes\Utilities;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly.
-}
-
-$conditions = json_decode( get_option('wpr_footer_conditions', '[]'), true );
-$template_slug = WPR_Conditions_Manager::header_footer_display_conditions($conditions);
-
-// Render WPR Header
-Utilities::render_elementor_template($template_slug);
-
-wp_footer();
-
-// Royal themes compatibility
-echo '</div>'; // .page-content
-echo '</div>'; // #page-wrap
-
-?>
-
-</body>
-</html> 
+version https://git-lfs.github.com/spec/v1
+oid sha256:a7926b285132878bb4012946ea11cb49f70d6f992b2426086cc330ab312b4d48
+size 534

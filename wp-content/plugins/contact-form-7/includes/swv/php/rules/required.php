@@ -1,33 +1,3 @@
-<?php
-
-namespace Contactable\SWV;
-
-class RequiredRule extends Rule {
-
-	const rule_name = 'required';
-
-	public function matches( $context ) {
-		if ( false === parent::matches( $context ) ) {
-			return false;
-		}
-
-		if ( empty( $context['text'] ) ) {
-			return false;
-		}
-
-		return true;
-	}
-
-	public function validate( $context ) {
-		$input = $this->get_default_input();
-		$input = wpcf7_array_flatten( $input );
-		$input = wpcf7_exclude_blank( $input );
-
-		if ( empty( $input ) ) {
-			return $this->create_error();
-		}
-
-		return true;
-	}
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ebdf5c6f1cd3ba1e3cd16424fd411db9b89540f355e1ba088a0df244f1096b6b
+size 540

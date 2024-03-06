@@ -1,31 +1,3 @@
-<?php
-/**
- * HTML API: WP_HTML_Unsupported_Exception class
- *
- * @package WordPress
- * @subpackage HTML-API
- * @since 6.4.0
- */
-
-/**
- * Core class used by the HTML processor during HTML parsing
- * for indicating that a given operation is unsupported.
- *
- * This class is designed for internal use by the HTML processor.
- *
- * The HTML API aims to operate in compliance with the HTML5
- * specification, but does not implement the full specification.
- * In cases where it lacks support it should not cause breakage
- * or unexpected behavior. In the cases where it recognizes that
- * it cannot proceed, this class is used to abort from any
- * operation and signify that the given HTML cannot be processed.
- *
- * @since 6.4.0
- *
- * @access private
- *
- * @see WP_HTML_Processor
- */
-class WP_HTML_Unsupported_Exception extends Exception {
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b6ac0584681959e11de89bdb0bf1f861a40c8d6048e08376494c595182d668ca
+size 836

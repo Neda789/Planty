@@ -1,25 +1,3 @@
-<?php
-namespace WprAddons\Modules\ThemeBuilder\PostTitle;
-
-use WprAddons\Base\Module_Base;
-use wpraddons\Classes\Utilities;
-
-class Module extends Module_Base {
-
-	public function __construct() {
-		parent::__construct();
-
-		// This is here for extensibility purposes - go to town and make things happen!
-	}
-	
-	public function get_name() {
-		return 'wpr-post-title';
-	}
-
-	public function get_widgets() {
-		return [
-			'Wpr_Post_Title', // This should match the widget/element class.
-		];
-	}
-	
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:bd1591fd92d82fd951d24952f997e531858614a01610ee5343b662f23edf2882
+size 491

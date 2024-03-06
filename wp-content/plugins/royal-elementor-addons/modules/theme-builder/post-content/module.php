@@ -1,25 +1,3 @@
-<?php
-namespace WprAddons\Modules\ThemeBuilder\PostContent;
-
-use WprAddons\Base\Module_Base;
-use WprAddons\Classes\Utilities;
-
-class Module extends Module_Base {
-
-	public function __construct() {
-		parent::__construct();
-
-		// This is here for extensibility purposes - go to town and make things happen!
-	}
-	
-	public function get_name() {
-		return 'wpr-post-content';
-	}
-
-	public function get_widgets() {
-		return [
-			'Wpr_Post_Content', // This should match the widget/element class.
-		];
-	}
-	
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c188de866c3e85ae0531116b49373cb65cf55a4b4a114cd27e6f65f0ec430438
+size 497

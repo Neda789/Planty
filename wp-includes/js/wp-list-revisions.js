@@ -1,28 +1,3 @@
-/**
- * @output wp-includes/js/wp-list-revisions.js
- */
-
-(function(w) {
-	var init = function() {
-		var pr = document.getElementById('post-revisions'),
-		inputs = pr ? pr.getElementsByTagName('input') : [];
-		pr.onclick = function() {
-			var i, checkCount = 0, side;
-			for ( i = 0; i < inputs.length; i++ ) {
-				checkCount += inputs[i].checked ? 1 : 0;
-				side = inputs[i].getAttribute('name');
-				if ( ! inputs[i].checked &&
-				( 'left' == side && 1 > checkCount || 'right' == side && 1 < checkCount && ( ! inputs[i-1] || ! inputs[i-1].checked ) ) &&
-				! ( inputs[i+1] && inputs[i+1].checked && 'right' == inputs[i+1].getAttribute('name') ) )
-					inputs[i].style.visibility = 'hidden';
-				else if ( 'left' == side || 'right' == side )
-					inputs[i].style.visibility = 'visible';
-			}
-		};
-		pr.onclick();
-	};
-	if ( w && w.addEventListener )
-		w.addEventListener('load', init, false);
-	else if ( w && w.attachEvent )
-		w.attachEvent('onload', init);
-})(window);
+version https://git-lfs.github.com/spec/v1
+oid sha256:f520ca275ea9e27b63334e0e8fbc4a7fb516c2c854687defd3fe14716f718789
+size 970

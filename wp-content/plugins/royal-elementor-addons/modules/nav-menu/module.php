@@ -1,24 +1,3 @@
-<?php
-namespace WprAddons\Modules\NavMenu;
-
-use WprAddons\Base\Module_Base;
-
-class Module extends Module_Base {
-
-	public function __construct() {
-		parent::__construct();
-
-		// This is here for extensibility purposes - go to town and make things happen!
-	}
-	
-	public function get_name() {
-		return 'wpr-nav-menu';
-	}
-
-	public function get_widgets() {
-		return [
-			'WPR_Nav_Menu', // This should match the widget/element class.
-		];
-	}
-	
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c2855fab111c3bdc6aa80b971f228e32506629b180bef61b0c868008aea83cb4
+size 439

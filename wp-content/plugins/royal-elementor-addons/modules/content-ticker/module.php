@@ -1,21 +1,3 @@
-<?php
-namespace WprAddons\Modules\ContentTicker;
-
-use WprAddons\Base\Module_Base;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Module extends Module_Base {
-
-	public function get_widgets() {
-		return [
-			'Wpr_Content_Ticker',
-		];
-	}
-
-	public function get_name() {
-		return 'wpr-content-ticker';
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f243743e6e5c18161bc08738cb34f1cd6d24aad5048a541941c016b7bb03e482
+size 334

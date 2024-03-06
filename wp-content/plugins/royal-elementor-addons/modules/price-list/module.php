@@ -1,21 +1,3 @@
-<?php
-namespace WprAddons\Modules\PriceList;
-
-use WprAddons\Base\Module_Base;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Module extends Module_Base {
-
-	public function get_widgets() {
-		return [
-			'Wpr_Price_List',
-		];
-	}
-
-	public function get_name() {
-		return 'wpr-price-list';
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ef843445dadf9aa43adb0e6b842fbfc46af35a982442925641a665c7c91de76a
+size 322

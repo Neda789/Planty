@@ -1,13 +1,3 @@
-/*! elementor - v3.19.0 - 28-02-2024 */
-/******/ (() => { // webpackBootstrap
-/******/ 	"use strict";
-var __webpack_exports__ = {};
-/*!*******************************************************!*\
-  !*** ../core/editor/loader/v1/js/editor-loader-v1.js ***!
-  \*******************************************************/
-
-
-window.elementor.start();
-/******/ })()
-;
-//# sourceMappingURL=editor-loader-v1.js.map
+version https://git-lfs.github.com/spec/v1
+oid sha256:bf881a74bff09a86e781f8a64f6964fe83a7d656b2d7488ced54f9f233be723c
+size 402

@@ -1,21 +1,3 @@
-<?php
-namespace WprAddons\Modules\ImageHotspots;
-
-use WprAddons\Base\Module_Base;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Module extends Module_Base {
-
-	public function get_widgets() {
-		return [
-			'Wpr_Image_Hotspots',
-		];
-	}
-
-	public function get_name() {
-		return 'wpr-image-hotspots';
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e05dcd7ecf2217f55870ebdcc301ad0af36b5b2db81c1970c58aeed4b9fffcfa
+size 334

@@ -1,24 +1,3 @@
-<?php
-namespace WprAddons\Modules\ThemeBuilder\Woocommerce\PageCart;
-
-use WprAddons\Base\Module_Base;
-
-class Module extends Module_Base {
-
-	public function __construct() {
-		parent::__construct();
-
-		// This is here for extensibility purposes - go to town and make things happen!
-	}
-	
-	public function get_name() {
-		return 'wpr-page-cart';
-	}
-
-	public function get_widgets() {
-		return [
-			'Wpr_Page_Cart', // This should match the widget/element class.
-		];
-	}
-	
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:14053c9ed81e52e94a4e05ba9bbc9c349bd30c1b2ba2f4b2903abde92e5ed6f4
+size 467

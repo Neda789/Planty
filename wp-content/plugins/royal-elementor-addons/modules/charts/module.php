@@ -1,21 +1,3 @@
-<?php
-namespace WprAddons\Modules\Charts;
-
-use WprAddons\Base\Module_Base;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Module extends Module_Base {
-
-	public function get_widgets() {
-		return [
-			'Wpr_Charts',
-		];
-	}
-
-	public function get_name() {
-		return 'wpr-charts';
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:23639dc192b9c340f8ddaf08d75f8137d9e4541a763780586fc44cdde729f2ff
+size 311

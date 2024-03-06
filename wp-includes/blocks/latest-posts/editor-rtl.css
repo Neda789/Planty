@@ -1,24 +1,3 @@
-.wp-block-latest-posts{
-  padding-right:2.5em;
-}
-.wp-block-latest-posts.is-grid{
-  padding-right:0;
-}
-.wp-block-latest-posts>li{
-  overflow:hidden;
-}
-
-.wp-block-latest-posts li a>div{
-  display:inline;
-}
-
-.edit-post-visual-editor .wp-block-latest-posts.is-grid li{
-  margin-bottom:20px;
-}
-
-.editor-latest-posts-image-alignment-control .components-base-control__label{
-  display:block;
-}
-.editor-latest-posts-image-alignment-control .components-toolbar{
-  border-radius:2px;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:88ba919c3e40e050b26e6262dc59e80405f658e606dd9bfef02e37e6a1509109
+size 475

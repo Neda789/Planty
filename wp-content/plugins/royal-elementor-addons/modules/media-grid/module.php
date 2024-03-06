@@ -1,24 +1,3 @@
-<?php
-namespace WprAddons\Modules\MediaGrid;
-
-use WprAddons\Base\Module_Base;
-
-class Module extends Module_Base {
-
-	public function __construct() {
-		parent::__construct();
-
-		// This is here for extensibility purposes - go to town and make things happen!
-	}
-	
-	public function get_name() {
-		return 'wpr-media-grid';
-	}
-
-	public function get_widgets() {
-		return [
-			'Wpr_Media_Grid', // This should match the widget/element class.
-		];
-	}
-	
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:dd34b9a204021a8e4ff22e113bd76e53adaeb458730fe2cb1f04aff690ec1acd
+size 445

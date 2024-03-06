@@ -1,24 +1,3 @@
-<?php
-namespace WprAddons\Modules\PhoneCall;
-
-use WprAddons\Base\Module_Base;
-
-class Module extends Module_Base {
-
-	public function __construct() {
-		parent::__construct();
-
-		// This is here for extensibility purposes - go to town and make things happen!
-	}
-	
-	public function get_name() {
-		return 'wpr-phone-call';
-	}
-
-	public function get_widgets() {
-		return [
-			'Wpr_Phone_call', // This should match the widget/element class.
-		];
-	}
-	
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:254989fe9b1599626ec384ee663571cd6e3a1961af22cfe9bbedd2161b784d7c
+size 445

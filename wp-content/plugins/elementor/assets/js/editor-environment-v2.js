@@ -1,17 +1,3 @@
-/*! elementor - v3.19.0 - 28-02-2024 */
-/******/ (() => { // webpackBootstrap
-/******/ 	"use strict";
-var __webpack_exports__ = {};
-/*!************************************************************!*\
-  !*** ../core/editor/loader/v2/js/editor-environment-v2.js ***!
-  \************************************************************/
-
-
-var _window$elementorV;
-if (!((_window$elementorV = window.elementorV2) !== null && _window$elementorV !== void 0 && _window$elementorV.env)) {
-  throw new Error('The "@elementor/env" package was not loaded.');
-}
-window.elementorV2.env.initEnv(window.elementorEditorV2Env);
-/******/ })()
-;
-//# sourceMappingURL=editor-environment-v2.js.map
+version https://git-lfs.github.com/spec/v1
+oid sha256:f483ebb2cde2bf0e4c2c72b2ad6e00f902a5a4438f78ddbc43ad2ba0f9e932fd
+size 670

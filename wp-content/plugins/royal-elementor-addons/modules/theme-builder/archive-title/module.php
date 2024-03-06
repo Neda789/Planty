@@ -1,25 +1,3 @@
-<?php
-namespace WprAddons\Modules\ThemeBuilder\ArchiveTitle;
-
-use WprAddons\Base\Module_Base;
-use WprAddons\Classes\Utilities;
-
-class Module extends Module_Base {
-
-	public function __construct() {
-		parent::__construct();
-
-		// This is here for extensibility purposes - go to town and make things happen!
-	}
-	
-	public function get_name() {
-		return 'wpr-archive-title';
-	}
-
-	public function get_widgets() {
-		return [
-			'Wpr_Archive_Title', // This should match the widget/element class.
-		];
-	}
-	
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:17f301328783454b012507ce6e65dc782300f9f9959f4593a966e81402463bbf
+size 500

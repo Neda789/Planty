@@ -1,24 +1,3 @@
-<?php
-namespace WprAddons\Modules\MagazineGrid;
-
-use WprAddons\Base\Module_Base;
-
-class Module extends Module_Base {
-
-	public function __construct() {
-		parent::__construct();
-
-		// This is here for extensibility purposes - go to town and make things happen!
-	}
-	
-	public function get_name() {
-		return 'wpr-magazine-grid';
-	}
-
-	public function get_widgets() {
-		return [
-			'Wpr_Magazine_Grid', // This should match the widget/element class.
-		];
-	}
-	
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:eed403e7fa7d22834b67e12b651516703de849a473dff73b03d367cb7eebe495
+size 454

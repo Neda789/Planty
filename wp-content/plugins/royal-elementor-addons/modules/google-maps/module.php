@@ -1,24 +1,3 @@
-<?php
-namespace WprAddons\Modules\GoogleMaps;
-
-use WprAddons\Base\Module_Base;
-
-class Module extends Module_Base {
-
-	public function __construct() {
-		parent::__construct();
-
-		// This is here for extensibility purposes - go to town and make things happen!
-	}
-	
-	public function get_name() {
-		return 'wpr-google-maps';
-	}
-
-	public function get_widgets() {
-		return [
-			'Wpr_Google_Maps', // This should match the widget/element class.
-		];
-	}
-	
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9b2dd224f983a68a9bac855e7def4b881cbf3f53019a5cc08a31dfe507258326
+size 448

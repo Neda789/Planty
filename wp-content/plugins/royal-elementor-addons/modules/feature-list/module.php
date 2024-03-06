@@ -1,21 +1,3 @@
-<?php
-namespace WprAddons\Modules\FeatureList;
-
-use WprAddons\Base\Module_Base;
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-class Module extends Module_Base {
-
-	public function get_widgets() {
-		return [
-			'Wpr_Feature_List',
-		];
-	}
-
-	public function get_name() {
-		return 'wpr-feature-list';
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b706780f27a543e86441c055e66e8895bdeba03b60eac79fea3081de28d51208
+size 328
